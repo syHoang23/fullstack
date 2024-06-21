@@ -9,7 +9,7 @@ const productRoutes = require('./product/productRoutes');
 const userRoutes = require('./user/userRoutes');
 const cartRoutes = require('./cart/cart_Routes');
 const adminRoutes = require('./admin/adminRoutes');
-
+//a
 app.use('/products', productRoutes);
 app.use('/users', userRoutes);
 app.use('/cart', cartRoutes);
